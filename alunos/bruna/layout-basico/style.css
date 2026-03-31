@@ -2,6 +2,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-align: center;
 }
 
 /**
@@ -22,18 +23,34 @@ html, body {
  * - Altere e acrescente seletores para novas regras CSS à vontade.
  */
 
+
 header {
 	background-color: lightseagreen;
+	display: flex;
+	height: 20vh;
+	justify-content: center;
+}
+
+main{
+	display: flex;
 }
 
 aside {
 	background-color: coral;
+	width: 25%;
+	height: 70vh;
+	margin-right: 20px;
 }
 
 section {
 	background-color: beige;
+	width: 75%;
+	height: 70vh;
 }
 
 footer {
 	background-color: mediumaquamarine;
+	display: flex;
+	height: 10vh;
+	justify-content: center;
 }
